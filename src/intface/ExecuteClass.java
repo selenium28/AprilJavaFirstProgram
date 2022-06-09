@@ -8,7 +8,7 @@ public class ExecuteClass {
 		shineObj.stop();
 		shineObj.helmet();
 		
-		// Bike objBike = new Bike(); We can't create object of interface.
+//		 Bike objBike = new Bike();  //  We can't create object of interface.
 		
 		Bike objBike = new ShineBike();  // Dynamic Polymorphism -- casting 
 		objBike.start();
